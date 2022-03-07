@@ -5,7 +5,9 @@ function BlogsPage() {
       <h1>Blogs Page</h1>
       <ul>
         <li>
-          <Link href="blogs/center-a-div">How to center anything with CSS</Link>
+          <Link href="blogs/How to center anything with CSS">
+            How to center anything with CSS
+          </Link>
         </li>
         <li>
           <Link href="blogs/Becoming a Frontend Engineer">

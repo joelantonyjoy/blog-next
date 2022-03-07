@@ -1,0 +1,63 @@
+.root {
+  height: 100vh;
+  background: #000;
+}
+
+.navbar {
+  width: calc(100% - 32px);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 16px;
+  color: #fff;
+  padding: 16px 8px;
+}
+
+.Home_container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 96px);
+  background: #000;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.Home_profile {
+  width: 100%;
+  min-width: 288px;
+}
+
+.Home_profile__name {
+  color: red;
+}
+
+.Home_profile__role {
+  margin-bottom: 100px;
+}
+
+.Home_profile__resume {
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 8px 16px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.Home_profile__hireme {
+  display: block;
+  cursor: pointer;
+  -webkit-text-decoration: 1px solid red;
+  text-decoration: 1px solid red;
+  color: red;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 32px auto;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+  font-size: 20px;
+  border-bottom: 2px solid red;
+}
